@@ -1,3 +1,5 @@
 ---
 # update caches: true | false
 pacman_update: true
+# packages to install
+pacman_install: []
