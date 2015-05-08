@@ -1,0 +1,5 @@
+---
+- name: Update caches
+  pacman:
+    update_cache=yes
+  when: pacman_update

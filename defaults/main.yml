@@ -1,0 +1,3 @@
+---
+# update caches: true | false
+pacman_update: true
