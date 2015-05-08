@@ -1,0 +1,12 @@
+machine:
+  services:
+    - docker
+
+depencency:
+  pre:
+    - docker info
+    - docker build -t itiut/ansible-role-pacman-test ./tests
+
+test:
+  override:
+    - docker run -v $(pwd):/ansible-role-pacman -w /ansible-role-pacman/tests itiut/ansible-role-pacman-test ansible-playbook site.yml -v

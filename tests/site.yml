@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  connection: local
+  vars:
+    pacman_install:
+      - sl
+    pacman_remove:
+      - cowsay
+  roles:
+    - { role: ../../ansible-role-pacman, tags: pacman }
