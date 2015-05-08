@@ -3,7 +3,7 @@ galaxy_info:
   author: Yuichi TANIKAWA
   description: Configures pacman packages.
   license: MIT
-  min_ansible_version: 1.4
+  min_ansible_version: 1.9
   platforms:
   - name: GenericLinux
     versions:

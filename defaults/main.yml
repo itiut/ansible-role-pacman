@@ -1,5 +1,7 @@
 ---
 # update caches: true | false
 pacman_update: true
+# install state: present | latest
+pacman_install_state: present
 # packages to install
 pacman_install: []
