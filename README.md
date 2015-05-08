@@ -1,4 +1,4 @@
-itiut.pacman ![build status](https://circleci.com/gh/itiut/ansible-role-pacman.svg?style=shield&circle-token=ed53438e0d0f0753da94078600c4b24af7ba2452)
+itiut.pacman [![build status](https://circleci.com/gh/itiut/ansible-role-pacman.svg?style=shield&circle-token=ed53438e0d0f0753da94078600c4b24af7ba2452)](https://circleci.com/gh/itiut/ansible-role-pacman)
 ====
 
 Ansible role for installing pacman packages.
