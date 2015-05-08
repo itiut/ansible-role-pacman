@@ -5,3 +5,5 @@ pacman_update: true
 pacman_install_state: present
 # packages to install
 pacman_install: []
+# packages to remove
+pacman_remove: []

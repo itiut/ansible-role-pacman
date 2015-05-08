@@ -1,0 +1,7 @@
+---
+- name: Remove packages
+  pacman:
+    name="{{ item }}"
+    state=absent
+  with_items: pacman_remove
+  when: pacman_remove
